@@ -1,22 +1,49 @@
+# Logs
 logs
 *.log
 npm-debug.log*
+
+# Runtime data / PIDs
 pids
 *.pid
 *.seed
+
+# Compiled binary addons
 lib-cov
 coverage
 .nyc_output
 .grunt
 .lock-wscript
 build/Release
-node_modules
-jspm_packages
-.npm
-.node_repl_history
+
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# System files
 .DS_Store
-server/assets/*
-.env
-todo.txt
 .idea
 .vscode
+.node_repl_history
+
+# Package managers
+.npm
+jspm_packages
+
+# Builds
+client/build/
+dist/
+
+# Env Files
+.env
+client/.env
+server/.env
+
+# App-specific
+todo.txt
+server/assets/*
+
+# Optional: OS-specific
+Thumbs.db
+ehthumbs.db
